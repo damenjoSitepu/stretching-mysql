@@ -4,7 +4,7 @@
 
 - Query Answer: 
 
-SELECT 
+```SELECT 
 CASE 
     WHEN grades.grade <= 7 THEN NULL
     ELSE students.name
@@ -13,4 +13,4 @@ grades.grade,
 students.marks
 FROM students INNER JOIN grades 
 ON (students.marks >= grades.min_mark AND students.marks <= grades.max_mark)
-ORDER BY grades.grade DESC, students.name ASC;
+ORDER BY grades.grade DESC, students.name ASC;```
