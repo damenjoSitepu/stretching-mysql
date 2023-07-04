@@ -21,8 +21,3 @@ FROM occupations
 GROUP BY occupations.occupation
 ORDER BY COUNT(occupations.occupation) ASC, occupations.occupation ASC;
 ```
-
-
-
-
-
